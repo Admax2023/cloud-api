@@ -19,7 +19,7 @@ docker build -t <nombre-imagen> .
 #verificar imagenes 
 docker images
 #ejecutar el contenedor
-docker run -d -p 8000:8000 --name  fastapi-app
+docker run -d -p 80:80 --name  fastapi-app
 
 #verificar que la imagen se haya creado correctamente
 docker build -t <nombre-imagen> .
